@@ -76,3 +76,7 @@ for (i in 2:nrow(df2test)) {
   
   df2test$Zeroes[i] <- county
 }
+
+# so this isnt counting multiple passes of 0 i think
+
+
